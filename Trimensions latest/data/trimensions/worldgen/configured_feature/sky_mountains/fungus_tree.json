@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count_multilayer",
+        "config": {
+          "count": 3
+        }
+      },
+      "feature": {
+        "type": "minecraft:huge_fungus",
+        "config": {
+          "hat_state": {
+            "Name": "minecraft:oak_leaves",
+            "Properties": {
+              "distance": "7",
+              "persistent": "false"
+            }
+          },
+          "decor_state": {
+            "Name": "minecraft:air"
+          },
+          "stem_state": {
+            "Name": "minecraft:oak_log",
+            "Properties": {
+              "axis": "y"
+            }
+          },
+          "valid_base_block": {
+            "Name": "minecraft:dirt"
+          },
+          "planted": false
+        }
+      }
+    }
+  }
+  

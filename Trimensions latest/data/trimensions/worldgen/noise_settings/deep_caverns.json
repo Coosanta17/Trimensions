@@ -1,0 +1,67 @@
+{
+    "bedrock_roof_position": 0,
+    "bedrock_floor_position": 0,
+    "sea_level": 32,
+    "min_surface_level": 0,
+    "disable_mob_generation": false,
+    "noise_caves_enabled": true,
+    "noodle_caves_enabled": true,
+    "aquifers_enabled": true,
+    "deepslate_enabled": true,
+    "ore_veins_enabled": true,
+    "default_block": {
+      "Name": "minecraft:stone"
+    },
+    "default_fluid": {
+      "Name": "minecraft:water",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    "noise": {
+      "min_y": -64,
+      "height": 256,
+      "density_factor": 2,
+      "density_offset": -0.3,
+      "size_horizontal": 4,
+      "size_vertical": 2,
+      "simplex_surface_noise": true,
+      "amplified": true,
+      "sampling": {
+        "xz_scale": 7,
+        "y_scale": 0.65,
+        "xz_factor": 600,
+        "y_factor": 80
+      },
+      "bottom_slide": {
+        "target": -3,
+        "size": 1,
+        "offset": 0
+      },
+      "top_slide": {
+        "target": 50,
+        "size": 18,
+        "offset": 0
+      }
+    },
+    "structures": {
+      "structures": {
+        "minecraft:stronghold": {
+          "spacing": 1,
+          "separation": 0,
+          "salt": 0
+        },
+        "minecraft:bastion_remnant": {
+          "spacing": 9,
+          "separation": 5,
+          "salt": 0
+        },
+        "minecraft:mineshaft": {
+          "spacing": 3,
+          "separation": 2,
+          "salt": 0
+        }
+      }
+    }
+  }
+  

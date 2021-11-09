@@ -1,0 +1,74 @@
+{
+    "depth": -2,
+    "scale": 256,
+    "precipitation": "rain",
+    "category": "plains",
+    "temperature": 0,
+    "temperature_modifier": "none",
+    "downfall": 0.5,
+    "player_spawn_friendly": false,
+    "creature_spawn_probability": 0.1,
+    "effects": {
+        "fog_color": 9403903,
+        "sky_color": 9403861,
+        "water_color": 4934603,
+        "water_fog_color": 4951243,
+        "foliage_color": 6199388,
+        "grass_color": 6202975,
+        "grass_color_modifier": "none",
+        "particle": {
+            "options": {
+                "type": "minecraft:ash"
+            },
+            "probability": 0.0001
+        },
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+        }
+    },
+    "surface_builder": "trimensions:void",
+    "carvers": {
+        "air": [
+            "minecraft:cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "trimensions:sky_mountains/void_builder"
+        ],
+        []
+    ],
+    "starts": [],
+    "spawn_costs": {
+        "phantom":{
+            "energy_budget": 0.12,
+            "charge": 1
+        }
+    },
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:phantom",
+                "weight": 12,
+                "maxCount": 1,
+                "minCount": 1
+            }
+        ],
+        "ambient": [],
+        "creature": [],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+    }
+}

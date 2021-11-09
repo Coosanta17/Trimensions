@@ -1,0 +1,20 @@
+{
+    "config": {
+      "top_material": {
+        "Name": "minecraft:deepslate",
+        "Properties": {
+          "axis": "y"
+        }
+      },
+      "under_material": {
+        "Name": "minecraft:deepslate",
+        "Properties": {
+          "axis": "y"
+        }
+      },
+      "underwater_material": {
+        "Name": "minecraft:stone"
+      }
+    },
+    "type": "minecraft:nope"
+  }
