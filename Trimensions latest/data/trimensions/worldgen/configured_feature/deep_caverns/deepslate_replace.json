@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:count",
       "config": {
-        "count": 5
+        "count": 10
       }
     },
     "feature": {
@@ -43,18 +43,18 @@
                 "feature": {
                   "type": "minecraft:netherrack_replace_blobs",
                   "config": {
-                    "state": {
+                    "target": {
                       "Name": "minecraft:deepslate",
                       "Properties": {
-                        "axies": "y"
+                        "axis": "y"
                       }
                     },
-                    "target": {
+                    "state": {
                       "Name": "minecraft:stone"
                     },
                     "radius": {
                       "type": "minecraft:constant",
-                      "value": 12
+                      "value": 1
                     }
                   }
                 }
