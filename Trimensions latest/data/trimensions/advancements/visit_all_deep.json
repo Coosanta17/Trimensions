@@ -1,0 +1,97 @@
+{
+    "display": {
+        "title": {
+            "text": "Adventurous miner"
+        },
+        "description": {
+            "text": "Visit all the biomes in the Deep Caverns"
+        },
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bedrock": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:deep_frozen_ocean"
+            }
+        },
+        "dark": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:dark_forest"
+            }
+        },
+        "deep": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:deep_ocean"
+            }
+        },
+        "drip": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:stone_shore"
+            }
+        },
+        "flour": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:soul_sand_valley"
+            }
+        },
+        "lush": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:flower_forest"
+            }
+        },
+        "ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:ocean"
+            }
+        },
+        "volcano": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:basalt_deltas"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bedrock"
+        ],
+        [
+            "dark"
+        ],
+        [
+            "deep"
+        ],
+        [
+            "drip"
+        ],
+        [
+            "flour"
+        ],
+        [
+            "lush"
+        ],
+        [
+            "ocean"
+        ],
+        [
+            "volcano"
+        ]
+    ],
+    "rewards": {
+        "experience": 500
+    },
+    "parent": "trimensions:enter_deep"
+}

@@ -1,0 +1,79 @@
+{
+    "display": {
+        "title": {
+            "text": "Seasoned pilot"
+        },
+        "description": {
+            "text": "Visit all the main biomes in the Sky Mountains"
+        },
+        "icon": {
+            "item": "minecraft:knowledge_book"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cold": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:cold_ocean"
+            }
+        },
+        "medium": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:plains"
+            }
+        },
+        "humid": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle"
+            }
+        },
+        "warm": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:desert"
+            }
+        },
+        "forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:forest"
+            }
+        },
+        "mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mountains"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "cold"
+        ],
+        [
+            "medium"
+        ],
+        [
+            "humid"
+        ],
+        [
+            "warm"
+        ],
+        [
+            "forest"
+        ],
+        [
+            "mountains"
+        ]
+    ],
+    "rewards": {
+        "experience": 700
+    },
+    "parent": "trimensions:enter_sky"
+}

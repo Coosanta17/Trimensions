@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Deep enough?"
+        },
+        "description": {
+            "text": "Enter the Deep Caverns"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enter": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "trimensions:deep_caverns"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter"
+        ]
+    ],
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "trimensions:root"
+}
