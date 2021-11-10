@@ -43,14 +43,14 @@
                 "feature": {
                   "type": "minecraft:netherrack_replace_blobs",
                   "config": {
+                    "state": {
+                      "Name": "minecraft:stone"
+                    },
                     "target": {
                       "Name": "minecraft:deepslate",
                       "Properties": {
                         "axis": "y"
                       }
-                    },
-                    "state": {
-                      "Name": "minecraft:stone"
                     },
                     "radius": {
                       "type": "minecraft:constant",
