@@ -47,10 +47,7 @@
                       "Name": "minecraft:dripstone_block"
                     },
                     "target": {
-                      "Name": "minecraft:deepslate",
-                      "Properties": {
-                        "axis": "y"
-                      }
+                      "Name": "minecraft:stone"
                     },
                     "radius": {
                       "type": "minecraft:constant",
