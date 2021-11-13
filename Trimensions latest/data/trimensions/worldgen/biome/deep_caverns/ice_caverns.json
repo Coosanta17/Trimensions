@@ -25,9 +25,9 @@
       },
       "particle": {
         "options": {
-          "type": "minecraft:ash"
+          "type": "minecraft:spit"
         },
-        "probability": 0.00075
+        "probability": 0.0075
       }
     },
     "starts": [],
