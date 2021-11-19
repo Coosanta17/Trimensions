@@ -110,14 +110,26 @@
   },
   "features": [
     [],
+    [
+      "minecraft:lake_water"
+    ],
+    [],
+    [],
+    [
+      "trimensions:deep_caverns/large_dripstone"
+    ],
     [],
     [],
     [],
-    [],
-    [],
-    [],
-    [],
-    [],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:flower_default",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "trimensions:deep_caverns/drippy_stone"
+    ],
     []
   ]
 }

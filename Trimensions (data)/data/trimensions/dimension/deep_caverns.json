@@ -37,7 +37,7 @@
       },
       "biomes": [
         {
-          "biome": "trimensions:deep_caverns/drpistone_caverns",
+          "biome": "trimensions:deep_caverns/dripstone_caverns",
           "parameters": {
             "altitude": 0,
             "temperature": 0,
@@ -87,7 +87,7 @@
           }
         },
         {
-          "biome": "trimensions:deep_caverns/subeterrain_ocean",
+          "biome": "trimensions:deep_caverns/subterrain_ocean",
           "parameters": {
             "altitude": -1,
             "temperature": 0,
