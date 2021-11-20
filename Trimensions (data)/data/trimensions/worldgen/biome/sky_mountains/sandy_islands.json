@@ -1,7 +1,7 @@
 {
     "surface_builder": "minecraft:badlands",
-    "depth": 0.9,
-    "scale": 0.1,
+    "depth": 0,
+    "scale": 1,
     "temperature": 1.9,
     "downfall": 0,
     "precipitation": "none",

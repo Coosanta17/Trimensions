@@ -1,6 +1,6 @@
 {
-    "depth": 0.1,
-    "scale": 0.3,
+    "depth": 0,
+    "scale": 1,
     "precipitation": "none",
     "category": "desert",
     "temperature": 1.9,

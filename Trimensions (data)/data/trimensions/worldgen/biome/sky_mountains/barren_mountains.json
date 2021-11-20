@@ -1,6 +1,6 @@
 {
-    "depth": 0.9,
-    "scale": 0.1,
+    "depth": 0,
+    "scale": 1,
     "precipitation": "rain",
     "category": "extreme_hills",
     "temperature": 0.8,

@@ -1,6 +1,6 @@
 {
-    "depth": 0.1,
-    "scale": 0.9,
+    "depth": 0,
+    "scale": 1,
     "precipitation": "snow",
     "category": "icy",
     "temperature": 0.0,

@@ -1,6 +1,6 @@
 {
-    "depth": 0.1,
-    "scale": 0.1,
+    "depth": 0,
+    "scale": 1,
     "precipitation": "rain",
     "category": "taiga",
     "temperature": 0.8,

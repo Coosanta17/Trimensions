@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:count",
       "config": {
-        "count": 10
+        "count": 5
       }
     },
     "feature": {
@@ -44,15 +44,14 @@
                   "type": "minecraft:netherrack_replace_blobs",
                   "config": {
                     "state": {
-                      "Name": "minecraft:stone"
+                      "Name": "minecraft:air"
                     },
                     "target": {
-                      "Name": "minecraft:air",
-                      "Properties": {}
+                      "Name": "minecraft:stone"
                     },
                     "radius": {
                       "type": "minecraft:constant",
-                      "value": 1
+                      "value": 2
                     }
                   }
                 }

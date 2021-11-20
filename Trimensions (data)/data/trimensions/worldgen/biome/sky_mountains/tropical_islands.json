@@ -1,7 +1,7 @@
 {
   "surface_builder": "minecraft:grass",
-  "depth": 0.1,
-  "scale": 0.2,
+  "depth": 0,
+  "scale": 1,
   "temperature": 0.95,
   "downfall": 0.9,
   "precipitation": "rain",
