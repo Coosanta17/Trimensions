@@ -10,7 +10,7 @@ This is a long term project for Minecraft Java Edition (recommended in servers) 
 This pack adds 3 new dimensions, the Sky Mountains, Deep Caverns, and The Cursed Gardens.
 
 You can see some screenshots below:
-![It Hasn't been finished yet!](https://github.com/Coosanta17/Trimensions/raw/main/Reasources/coming-soon-lettering-coming-soon-for-promotion-advertisement-sale-vector-id1221240925%5B1%5D)
+![It Hasn't been finished yet!](https://github.com/Coosanta17/Trimensions/raw/main/Reasources/COMING_SOOOOON!!.png)
   
 30+ biomes
 Battle powerful bosses
