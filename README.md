@@ -12,12 +12,17 @@ This pack adds 3 new dimensions, the Sky Mountains, Deep Caverns, and The Cursed
 You can see some screenshots below:
 ![It Hasn't been finished yet!](https://github.com/Coosanta17/Trimensions/raw/main/Reasources/COMING_SOOOOON!!.png)
   
-30+ biomes
-Battle powerful bosses
+also has 30+ biomes!
+
+Battle powerful bosses!
+
 and Many new Items and weapons.
+
 #### THIS PACK IS STILL IN MAKING
 about 50% thru and hopefully first Beta release on 1st of January 2022
+
 THERE IS MORE! but i can't be bother lol
+
 Come join us on discord!
 **[https://discord.gg/wQtqZjYXqa](https://discord.gg/wQtqZjYXqa "https://discord.gg/wQtqZjYXqa")**
 
