@@ -1,7 +1,7 @@
 {
   "surface_builder": "trimensions:bedrock",
-  "depth": 3,
-  "scale": 0,
+  "depth": 0.1,
+  "scale": 0.9,
   "temperature": 0,
   "downfall": 0,
   "precipitation": "none",

@@ -1,14 +1,14 @@
 {
-  "bedrock_roof_position": 384,
-  "bedrock_floor_position": -64,
-  "sea_level": 100,
-  "min_surface_level": -64,
+  "bedrock_roof_position": 256,
+  "bedrock_floor_position": 0,
+  "sea_level": 39,
+  "min_surface_level": 0,
   "disable_mob_generation": false,
-  "noise_caves_enabled": true,
-  "noodle_caves_enabled": true,
-  "aquifers_enabled": true,
-  "deepslate_enabled": true,
-  "ore_veins_enabled": true,
+  "noise_caves_enabled": false,
+  "noodle_caves_enabled": false,
+  "aquifers_enabled": false,
+  "deepslate_enabled": false,
+  "ore_veins_enabled": false,
   "default_block": {
     "Name": "minecraft:stone"
   },
@@ -19,47 +19,51 @@
     }
   },
   "noise": {
-    "min_y": -64,
-    "height": 384,
-    "density_factor": 2,
-    "density_offset": -0.3,
-    "size_horizontal": 4,
+    "min_y": 0,
+    "height": 256,
+    "density_factor": 0.12,
+    "density_offset": 0.019921875,
+    "size_horizontal": 1,
     "size_vertical": 2,
-    "simplex_surface_noise": true,
-    "amplified": true,
+    "simplex_surface_noise": false,
     "sampling": {
-      "xz_scale": 7,
-      "y_scale": 0.65,
-      "xz_factor": 600,
-      "y_factor": 80
+      "xz_scale": 0.2,
+      "y_scale": 0.25,
+      "xz_factor": 300,
+      "y_factor": 360
     },
     "bottom_slide": {
-      "target": -3,
-      "size": 1,
-      "offset": 0
+      "target": 320,
+      "size": 4,
+      "offset": -1
     },
     "top_slide": {
-      "target": 50,
-      "size": 18,
+      "target": 120,
+      "size": 3,
       "offset": 0
     }
   },
   "structures": {
+    "stronghold": {
+      "distance": 32,
+      "spread": 3,
+      "count": 128
+    },
     "structures": {
-      "minecraft:stronghold": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 0
+      "minecraft:mineshaft": {
+        "spacing": 2,
+        "separation": 1,
+        "salt": 14357921
       },
       "minecraft:bastion_remnant": {
         "spacing": 9,
         "separation": 5,
         "salt": 0
       },
-      "minecraft:mineshaft": {
-        "spacing": 3,
-        "separation": 2,
-        "salt": 0
+      "minecraft:stronghold": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357619
       }
     }
   }

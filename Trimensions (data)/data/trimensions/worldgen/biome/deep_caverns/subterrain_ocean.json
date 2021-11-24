@@ -1,7 +1,7 @@
 {
   "surface_builder": "minecraft:stone",
-  "depth": 1,
-  "scale": 3,
+  "depth": -0.3,
+  "scale": 0.8,
   "temperature": 0,
   "downfall": 0,
   "precipitation": "none",
