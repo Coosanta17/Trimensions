@@ -18,7 +18,7 @@ Battle powerful bosses!
 
 and Many new Items and weapons.
 
-#### THIS PACK IS STILL IN MAKING
+#### THIS PACK IS STILL IN PROGRESS
 about 50% thru and hopefully first Beta release on 1st of January 2022
 
 THERE IS MORE! but i can't be bother lol
