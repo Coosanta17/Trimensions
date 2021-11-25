@@ -1,9 +1,9 @@
 {
-  "type": "trimensions:sky_mountains",
+  "type": "trimensions:deep_caverns",
   "generator": {
     "type": "minecraft:noise",
     "seed": 2111844826,
-    "settings": "trimensions:sky_mountains",
+    "settings": "trimensions:deep_caverns",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "seed": 2111844826,
