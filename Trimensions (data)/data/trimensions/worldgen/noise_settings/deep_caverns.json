@@ -4,10 +4,10 @@
   "sea_level": 39,
   "min_surface_level": 0,
   "disable_mob_generation": false,
-  "noise_caves_enabled": false,
-  "noodle_caves_enabled": false,
-  "aquifers_enabled": false,
-  "deepslate_enabled": false,
+  "noise_caves_enabled": true,
+  "noodle_caves_enabled": true,
+  "aquifers_enabled": true,
+  "deepslate_enabled": true,
   "ore_veins_enabled": false,
   "default_block": {
     "Name": "minecraft:stone"
@@ -26,6 +26,7 @@
     "size_horizontal": 1,
     "size_vertical": 2,
     "simplex_surface_noise": false,
+    "island_noise_override": true,
     "sampling": {
       "xz_scale": 0.2,
       "y_scale": 0.25,
@@ -38,8 +39,8 @@
       "offset": -1
     },
     "top_slide": {
-      "target": 120,
-      "size": 3,
+      "target": 33,
+      "size": 5,
       "offset": 0
     }
   },
