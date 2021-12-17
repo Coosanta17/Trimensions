@@ -1,10 +1,10 @@
 {
-  "sea_level": 90,
+  "sea_level": 115,
   "disable_mob_generation": false,
-  "noise_caves_enabled": false,
+  "noise_caves_enabled": true,
   "noodle_caves_enabled": true,
-  "aquifers_enabled": true,
-  "ore_veins_enabled": true,
+  "aquifers_enabled": false,
+  "ore_veins_enabled": false,
   "legacy_random_source": false,
   "default_block": {
     "Name": "minecraft:stone"
@@ -28,7 +28,7 @@
     },
     "bottom_slide": {
       "target": 0.9786757544765528,
-      "size": 15,
+      "size": 20,
       "offset": -1
     },
     "top_slide": {
@@ -176,8 +176,8 @@
               "if_true": {
                 "type": "minecraft:noise_threshold",
                 "noise": "trimensions:cracks_gradient",
-                "min_threshold": -0.01,
-                "max_threshold": 0.01
+                "min_threshold": -0.1,
+                "max_threshold": 0.1
               },
               "then_run": {
                 "type": "minecraft:block",
@@ -191,8 +191,8 @@
               "if_true": {
                 "type": "minecraft:noise_threshold",
                 "noise": "trimensions:cracks",
-                "min_threshold": -0.008,
-                "max_threshold": 0.008
+                "min_threshold": -0.08,
+                "max_threshold": 0.08
               },
               "then_run": {
                 "type": "minecraft:block",
@@ -220,8 +220,8 @@
               "if_true": {
                 "type": "minecraft:noise_threshold",
                 "noise": "trimensions:cracks",
-                "min_threshold": -0.008,
-                "max_threshold": 0.008
+                "min_threshold": -0.08,
+                "max_threshold": 0.08
               },
               "then_run": {
                 "type": "minecraft:block",
@@ -235,8 +235,8 @@
               "if_true": {
                 "type": "minecraft:noise_threshold",
                 "noise": "trimensions:cracks_gradient",
-                "min_threshold": -0.01,
-                "max_threshold": 0.01
+                "min_threshold": -0.1,
+                "max_threshold": 0.1
               },
               "then_run": {
                 "type": "minecraft:block",

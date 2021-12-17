@@ -1,5 +1,5 @@
 {
-  "__comment": "use threshold of min: -0.01, max: 0.01",
+  "__comment": "use threshold of min: -0.1, max: 0.1",
     "firstOctave": -6,
     "amplitudes": [
       5,
