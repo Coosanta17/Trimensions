@@ -6,153 +6,154 @@
     "settings": "trimensions:sky_mountains",
     "biome_source": {
       "type": "minecraft:multi_noise",
-      "seed": 2111844826,
-      "altitude_noise": {
-        "firstOctave": -7,
-        "amplitudes": [
-          1,
-          1
-        ]
-      },
-      "temperature_noise": {
-        "firstOctave": -9,
-        "amplitudes": [
-          1,
-          1
-        ]
-      },
-      "humidity_noise": {
-        "firstOctave": -7,
-        "amplitudes": [
-          1,
-          1
-        ]
-      },
-      "weirdness_noise": {
-        "firstOctave": -7,
-        "amplitudes": [
-          1,
-          1
-        ]
-      },
       "biomes": [
         {
           "biome": "trimensions:sky_mountains/barren_mountains",
           "parameters": {
-            "altitude": 1.2,
-            "temperature": 0,
+            "temperature": [
+              -1.3,
+              -0.91213145297
+            ],
             "humidity": 0.1,
+            "continentalness": 1,
+            "erosion": 0,
             "weirdness": -0.8,
+            "depth": 0,
             "offset": 0
           }
         },
         {
           "biome": "trimensions:sky_mountains/xp_forests",
           "parameters": {
-            "altitude": 0.5,
             "temperature": 0.75,
             "humidity": 0.8,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0.89,
+            "depth": 0,
             "offset": 0
           }
         },
         {
           "biome": "trimensions:sky_mountains/lapis_fields",
           "parameters": {
-            "altitude": 0,
-            "temperature": 0.5,
-            "humidity": 0,
+            "temperature": [
+              0.666666666666667,
+              1
+            ],
+            "humidity": 0.2,
+            "continentalness": 0.25,
+            "erosion": 0,
             "weirdness": 0.1,
+            "depth": 0,
             "offset": 1
           }
         },
         {
           "biome": "trimensions:sky_mountains/icy_islands",
           "parameters": {
-            "altitude": 0.7,
             "temperature": -1.5,
             "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
+            "depth": 0,
             "offset": 0.123456789
           }
         },
         {
           "biome": "trimensions:sky_mountains/cold_islands",
           "parameters": {
-            "altitude": 0.6,
             "temperature": -1.5,
             "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
+            "depth": 0,
             "offset": 0.314159265359
           }
         },
         {
           "biome": "trimensions:sky_mountains/sky_void",
           "parameters": {
-            "altitude": -1,
             "temperature": 0,
             "humidity": 0,
-            "weirdness": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 1,
+            "depth": 0,
             "offset": 1
           }
         },
         {
           "biome": "trimensions:sky_mountains/cold_island_edge",
           "parameters": {
-            "altitude": 0.5,
             "temperature": -1.45,
             "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
+            "depth": 0,
             "offset": 0.55
           }
         },
         {
           "biome": "trimensions:sky_mountains/sandy_islands",
           "parameters": {
-            "altitude": 0.21,
             "temperature": 1.4776,
             "humidity": -0.102,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
+            "depth": 0,
             "offset": 0
           }
         },
         {
           "biome": "trimensions:sky_mountains/warm_islands",
           "parameters": {
-            "altitude": 0.2,
             "temperature": 1.476767677777778,
             "humidity": -0.101,
+            "continentalness": 0.134777777778,
+            "erosion": 0,
             "weirdness": 0,
+            "depth": 0,
             "offset": 0.075
           }
         },
         {
           "biome": "trimensions:sky_mountains/warm_islands_edge",
           "parameters": {
-            "altitude": 0.188,
             "temperature": 1.467676767777778,
             "humidity": -0.001,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
+            "depth": 0,
             "offset": 0.27
           }
         },
         {
           "biome": "trimensions:sky_mountains/modified_cold_island_edge",
           "parameters": {
-            "altitude": 0.4,
             "temperature": -0.5,
             "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": -1.2,
+            "depth": 0,
             "offset": 0.995
           }
         },
         {
           "biome": "trimensions:sky_mountains/tropical_islands",
           "parameters": {
-            "altitude": 0,
             "temperature": 1.3,
             "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
+            "depth": 0,
             "offset": 0
           }
         }

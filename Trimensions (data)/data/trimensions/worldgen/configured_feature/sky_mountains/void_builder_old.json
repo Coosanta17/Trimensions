@@ -1,0 +1,16 @@
+{
+                  "type": "minecraft:netherrack_replace_blobs",
+                  "config": {
+                    "state": {
+                      "Name": "minecraft:air"
+                    },
+                    "target": {
+                      "Name": "minecraft:stone"
+                    },
+                    "radius": {
+                      "type": "minecraft:constant",
+                      "value": 2
+                    }
+                  }
+                }
+              

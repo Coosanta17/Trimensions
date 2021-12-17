@@ -1,13 +1,9 @@
 {
-  "surface_builder": "minecraft:stone",
-  "depth": -0.3,
-  "scale": 0.8,
   "temperature": 0,
   "downfall": 0,
   "precipitation": "none",
   "temperature_modifier": "none",
   "category": "none",
-  "player_spawn_friendly": true,
   "creature_spawn_probability": 0.7,
   "effects": {
     "sky_color": 0,
@@ -30,7 +26,6 @@
       "probability": 0.00075
     }
   },
-  "starts": [],
   "spawners": {
     "monster": [
       {

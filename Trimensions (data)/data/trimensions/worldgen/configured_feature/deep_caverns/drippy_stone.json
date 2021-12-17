@@ -1,65 +1,15 @@
 {
-  "type": "minecraft:decorated",
+  "type": "minecraft:netherrack_replace_blobs",
   "config": {
-    "decorator": {
-      "type": "minecraft:count",
-      "config": {
-        "count": 10
-      }
+    "state": {
+      "Name": "minecraft:stone"
     },
-    "feature": {
-      "type": "minecraft:decorated",
-      "config": {
-        "decorator": {
-          "type": "minecraft:count",
-          "config": {
-            "count": 256
-          }
-        },
-        "feature": {
-          "type": "minecraft:decorated",
-          "config": {
-            "decorator": {
-              "type": "minecraft:square",
-              "config": {}
-            },
-            "feature": {
-              "type": "minecraft:decorated",
-              "config": {
-                "decorator": {
-                  "type": "minecraft:range",
-                  "config": {
-                    "height": {
-                      "type": "minecraft:uniform",
-                      "min_inclusive": {
-                        "above_bottom": 0
-                      },
-                      "max_inclusive": {
-                        "below_top": 0
-                      }
-                    }
-                  }
-                },
-                "feature": {
-                  "type": "minecraft:netherrack_replace_blobs",
-                  "config": {
-                    "target": {
-                      "Name": "minecraft:dripstone_block"
-                    },
-                    "state": {
-                      "Name": "minecraft:stone"
-                    },
-                    "radius": {
-                      "type": "minecraft:constant",
-                      "value": 1
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
+    "target": {
+      "Name": "minecraft:dripstone_block"
+    },
+    "radius": {
+      "type": "minecraft:constant",
+      "value": 1
     }
   }
 }

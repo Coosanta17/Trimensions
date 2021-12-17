@@ -2,10 +2,13 @@
   "type": "minecraft:netherrack_replace_blobs",
   "config": {
     "state": {
-      "Name": "minecraft:ice"
+      "Name": "minecraft:deepslate",
+      "Properties": {
+        "axis": "y"
+      }
     },
     "target": {
-      "Name": "minecraft:dripstone_block"
+      "Name": "minecraft:stone"
     },
     "radius": {
       "type": "minecraft:constant",

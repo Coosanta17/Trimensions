@@ -1,89 +1,84 @@
 {
-    "surface_builder": "minecraft:stone",
-    "depth": 0.1,
-    "scale": 0.9,
-    "temperature": 0,
-    "downfall": 0,
-    "precipitation": "none",
-    "temperature_modifier": "none",
-    "category": "none",
-    "player_spawn_friendly": true,
-    "creature_spawn_probability": 0.7,
-    "effects": {
-      "sky_color": 1850880,
-      "fog_color": 3125885,
-      "water_color": 49585,
-      "water_fog_color": 49601,
-      "grass_color": 6589796,
-      "foliage_color": 6598756,
-      "grass_color_modifier": "none",
-      "mood_sound": {
-        "sound": "minecraft:ambient.cave",
-        "tick_delay": 6000,
-        "block_search_extent": 8,
-        "offset": 2
+  "temperature": 0,
+  "downfall": 0,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "none",
+  "creature_spawn_probability": 0.7,
+  "effects": {
+    "sky_color": 1850880,
+    "fog_color": 3125885,
+    "water_color": 49585,
+    "water_fog_color": 49601,
+    "grass_color": 6589796,
+    "foliage_color": 6598756,
+    "grass_color_modifier": "none",
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
       },
-      "particle": {
-        "options": {
-          "type": "minecraft:ash"
-        },
-        "probability": 0.00075
+      "probability": 0.00075
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 50,
+        "minCount": 2,
+        "maxCount": 4
       }
-    },
-    "starts": [],
-    "spawners": {
-      "monster": [
-        {
-          "type": "minecraft:zombie",
-          "weight": 50,
-          "minCount": 2,
-          "maxCount": 4
-        }
-      ],
-      "ambient": [
-        {
-          "type": "minecraft:bat",
-          "weight": 10,
-          "minCount": 8,
-          "maxCount": 8
-        }
-      ],
-      "creature": [],
-      "water_creature": [],
-      "water_ambient": [],
-      "misc": []
-    },
-    "spawn_costs": {
-      "minecraft:zombie": {
-        "energy_budget": 0.12,
-        "charge": 1
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
       }
-    },
-    "carvers": {
-      "air": [
-        "minecraft:cave",
-        "minecraft:canyon"
-      ]
-    },
-    "features": [
-      [],
-      [
-        "minecraft:lake_water"
-      ],
-      [],
-      [],
-      [],
-      [],
-      [],
-      [],
-      [
-        "minecraft:glow_lichen",
-        "minecraft:flower_default",
-        "minecraft:brown_mushroom_normal",
-        "minecraft:red_mushroom_normal",
-        "minecraft:spring_water",
-        "minecraft:spring_lava"
-      ],
-      []
+    ],
+    "creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {
+    "minecraft:zombie": {
+      "energy_budget": 0.12,
+      "charge": 1
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
     ]
-  }  
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_water"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:flower_default",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    []
+  ]
+}

@@ -1,12 +1,8 @@
 {
-  "surface_builder": "minecraft:grass",
-  "depth": 0,
-  "scale": 1,
   "temperature": 0.95,
   "downfall": 0.9,
   "precipitation": "rain",
   "category": "jungle",
-  "player_spawn_friendly": true,
   "effects": {
     "sky_color": 65505,
     "fog_color": 65459,
@@ -19,12 +15,6 @@
       "offset": 2
     }
   },
-  "starts": [
-    "minecraft:jungle_pyramid",
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal_jungle"
-  ],
   "spawners": {
     "monster": [
       {
