@@ -122,8 +122,7 @@
       "minecraft:red_mushroom_normal",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "trimensions:deep_caverns/drippy_deepslate",
-      "trimensions:deep_caverns/deepslate_replace"
+      "trimensions:deep_caverns/drippy_deepslate"
     ],
     []
   ]
