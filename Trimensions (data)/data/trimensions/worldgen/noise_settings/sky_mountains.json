@@ -37,12 +37,12 @@
       "offset": 8
     },
     "terrain_shaper": {
-      "offset": -0.131415926,
+      "offset": -0.05131415926,
       "factor": {
         "coordinate": "erosion",
         "points": [
           {
-            "location": -0.131415926,
+            "location": -0.0531415926,
             "derivative": -0.25,
             "value": {
               "coordinate": "continents",
