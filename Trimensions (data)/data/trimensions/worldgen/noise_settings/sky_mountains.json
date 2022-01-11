@@ -174,18 +174,7 @@
                   }
                 ]
               }
-            }
-          ]
-        }
-      },
-      {
-        "type": "minecraft:condition",
-        "if_true": {
-          "type": "minecraft:above_preliminary_surface"
-        },
-        "then_run": {
-          "type": "minecraft:sequence",
-          "sequence": [
+            },
             {
               "type": "minecraft:condition",
               "if_true": {
@@ -211,10 +200,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:grass_block",
-                        "Properties": {
-                          "snowy": "true"
-                        }
+                        "Name": "minecraft:stone"
                       }
                     }
                   }
