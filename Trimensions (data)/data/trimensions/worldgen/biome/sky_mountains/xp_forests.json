@@ -74,9 +74,7 @@
     },
     "features": [
       [],
-      [
-        "minecraft:lake_water"
-      ],
+      [],
       [
         "minecraft:forest_rock"
       ],

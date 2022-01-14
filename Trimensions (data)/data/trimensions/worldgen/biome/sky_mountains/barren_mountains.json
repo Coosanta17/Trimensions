@@ -81,9 +81,7 @@
     },
     "features": [
       [],
-      [
-        "minecraft:lake_water"
-      ],
+      [],
       [],
       [
         "minecraft:monster_room"
