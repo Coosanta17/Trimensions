@@ -108,9 +108,8 @@
     [],
     [],
     [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone",
-      "minecraft:small_dripstone",
+      "minecraft:pointed_dripstone",
+      "minecraft:dripstone_cluster",
       "trimensions:deep_caverns/large_dripstone"
     ],
     [],

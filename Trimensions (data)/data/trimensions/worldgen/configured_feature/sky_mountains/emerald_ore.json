@@ -8,8 +8,11 @@
       "Name": "minecraft:stone"
     },
     "radius": {
-      "type": "minecraft:constant",
-      "value": 2
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 0,
+        "max_inclusive": 3
+      }
     }
   }
 }

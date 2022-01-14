@@ -9,7 +9,7 @@
     },
     "radius": {
       "type": "minecraft:constant",
-      "value": 3
+      "value": 5
     }
   }
 }
