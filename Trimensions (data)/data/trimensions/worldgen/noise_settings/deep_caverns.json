@@ -1,10 +1,10 @@
 {
-  "sea_level": 115,
+  "sea_level": 10,
   "disable_mob_generation": false,
   "noise_caves_enabled": true,
   "noodle_caves_enabled": true,
   "aquifers_enabled": false,
-  "ore_veins_enabled": false,
+  "ore_veins_enabled": true,
   "legacy_random_source": false,
   "default_block": {
     "Name": "minecraft:stone"
@@ -16,68 +16,139 @@
     }
   },
   "noise": {
-    "min_y": 0,
-    "height": 256,
+    "min_y": -64,
+    "height": 384,
     "size_horizontal": 1,
     "size_vertical": 2,
     "sampling": {
-      "xz_scale": 1,
-      "y_scale": 0.1,
-      "xz_factor": 80,
-      "y_factor": 60
+      "xz_scale": 0.5,
+      "y_scale": 0.15,
+      "xz_factor": 300,
+      "y_factor": 500
     },
     "bottom_slide": {
-      "target": 0.9786757544765528,
-      "size": 20,
-      "offset": -1
+      "target": 0.4,
+      "size": 15,
+      "offset": 1
     },
     "top_slide": {
-      "target": 0.9375,
-      "size": 6,
-      "offset": 0
+      "target": 0.5,
+      "size": 10,
+      "offset": 8
     },
     "terrain_shaper": {
       "offset": {
         "coordinate": "continents",
         "points": [
           {
-            "location": -1,
-            "derivative": -1,
-            "value": -1
+            "location": 1.6,
+            "derivative": 0,
+            "value": 0.9
           },
           {
-            "location": 1,
-            "derivative": 1,
-            "value": 1
+            "location": 1.4,
+            "derivative": 0,
+            "value": 0.7
+          },
+          {
+            "location": 1.2,
+            "derivative": 0,
+            "value": 0.6
+          },
+          {
+            "location": 0.9,
+            "derivative": 0,
+            "value": 0.8
+          },
+          {
+            "location": 0.4,
+            "derivative": 0,
+            "value": 0.5
+          },
+          {
+            "location": -0.4,
+            "derivative": 0,
+            "value": 0.333
+          },
+          {
+            "location": -0.67,
+            "derivative": 0,
+            "value": 0.2
+          },
+          {
+            "location": -1.2,
+            "derivative": 0,
+            "value": -0.456
+          },
+          {
+            "location": -1.4,
+            "derivative": 0,
+            "value": -0.6942
+          },
+          {
+            "location": -1.5,
+            "derivative": 0,
+            "value": -5
           }
         ]
       },
       "factor": {
-        "coordinate": "erosion",
+        "coordinate": "continents",
         "points": [
           {
-            "location": 0.1,
-            "derivative": 0.1,
-            "value": 0.19
+            "location": -1.5,
+            "derivative": 0,
+            "value": 0.01
+          },
+          {
+            "location": 0,
+            "derivative": 0,
+            "value": 0.03
+          },
+          {
+            "location": 1.5,
+            "derivative": 0,
+            "value": 0.1
           }
         ]
       },
       "jaggedness": {
-        "coordinate": "erosion",
+        "coordinate": "continents",
         "points": [
           {
-            "location": 0.1,
-            "derivative": 0.1,
-            "value": {
-              "coordinate": "ridges",
-              "points": [
-                {
-                  "location": 0.1,
-                  "derivative": 0.13,
-                  "value": 1.5
-                }
-              ]
-            }
+            "location": 1,
+            "derivative": 0,
+            "value": 0.7
+          },
+          {
+            "location": 0.6,
+            "derivative": 0,
+            "value": 0.5
+          },
+          {
+            "location": 0.3,
+            "derivative": 0,
+            "value": 0.4
+          },
+          {
+            "location": 0,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": -0.3,
+            "derivative": 0,
+            "value": 0.5
+          },
+          {
+            "location": -0.6,
+            "derivative": 0,
+            "value": 0.8
+          },
+          {
+            "location": -1,
+            "derivative": 0,
+            "value": 1
           }
         ]
       }

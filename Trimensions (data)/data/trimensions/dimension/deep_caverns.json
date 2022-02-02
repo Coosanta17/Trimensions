@@ -65,7 +65,7 @@
           "biome": "trimensions:deep_caverns/volcanic_vents",
           "parameters": {
             "temperature": [
-              0.6666666666666667,
+              1,
               2
             ],
             "humidity": 0,
@@ -81,11 +81,8 @@
           "parameters": {
             "temperature": 0,
             "humidity": 0,
-            "continentalness": 0,
-            "erosion": [
-              0.5,
-              2
-            ],
+            "continentalness": -0.5,
+            "erosion": 0.5,
             "weirdness": 0,
             "depth": 0,
             "offset": 0
@@ -125,6 +122,21 @@
             "weirdness": 0,
             "depth": 0,
             "offset": 0
+          }
+        },
+        {
+          "biome": "trimensions:deep_caverns/just_caverns",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [
+              -0.7,
+              -0.3
+            ],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0.3,
+            "offset": 0.6
           }
         }
       ]
