@@ -1,7 +1,7 @@
 {
   "type": "minecraft:large_dripstone",
   "config": {
-    "floor_to_ceiling_search_range": 90,
+    "floor_to_ceiling_search_range": 30,
     "column_radius": {
       "type": "minecraft:uniform",
       "value": {

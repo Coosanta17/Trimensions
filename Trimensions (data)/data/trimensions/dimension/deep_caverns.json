@@ -125,7 +125,7 @@
           }
         },
         {
-          "biome": "trimensions:deep_caverns/just_caverns",
+          "biome": "trimensions:deep_caverns/just_caves",
           "parameters": {
             "temperature": 0,
             "humidity": 0,

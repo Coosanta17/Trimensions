@@ -100,7 +100,7 @@
     "air": [
       "minecraft:cave",
       "minecraft:canyon",
-      "minecraft:prototype_cave"
+      "minecraft:cave_extra_underground"
     ]
   },
   "features": [
