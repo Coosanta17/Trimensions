@@ -1,14 +1,12 @@
 {
-                "type": "minecraft:netherrack_replace_blobs",
-                "config": {
-                  "state": {
-                    "Name": "minecraft:iron_ore"
-                  },
-                  "target": {
-                    "Name": "minecraft:stone"
-                  },
-                  "radius": 2
-                }
-              }
-            
-  
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:iron_ore"
+    },
+    "target": {
+      "Name": "minecraft:stone"
+    },
+    "radius": 2
+  }
+}

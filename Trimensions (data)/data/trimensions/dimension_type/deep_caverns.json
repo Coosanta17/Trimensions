@@ -1,6 +1,6 @@
 {
     "logical_height": 256,
-    "infiniburn": "minecraft:infiniburn_nether",
+    "infiniburn": "#minecraft:infiniburn_nether",
     "effects": "minecraft:overworld",
     "ambient_light": 0.01,
     "respawn_anchor_works": false,
@@ -8,10 +8,10 @@
     "min_y": 0,
     "height": 256,
     "natural": false,
-    "coordinate_scale": 4.0,
+    "coordinate_scale": 4,
     "piglin_safe": false,
     "bed_works": false,
     "has_skylight": false,
     "has_ceiling": true,
     "ultrawarm": false
-  }
+}

@@ -1,19 +1,18 @@
 {
-    "type": "minecraft:netherrack_replace_blobs",
-    "config": {
-      "state": {
-        "Name": "minecraft:emerald_ore"
-      },
-      "target": {
-        "Name": "minecraft:stone"
-      },
-      "radius": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 0,
-          "max_inclusive": 1
-        }
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:emerald_ore"
+    },
+    "target": {
+      "Name": "minecraft:stone"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 0,
+        "max_inclusive": 1
       }
     }
   }
-  
+}

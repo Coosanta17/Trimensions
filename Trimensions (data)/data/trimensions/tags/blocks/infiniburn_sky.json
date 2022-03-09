@@ -1,10 +1,10 @@
 {
-    "replace": false,
-    "values": [
-      "minecraft:netherrack",
-      "minecraft:magma_block",
-      "minecraft:lapis_block",
-      "minecraft:lapis_ore",
-      "minecraft:deepslate_lapis_ore"
-    ]
-  }
+  "replace": false,
+  "values": [
+    "minecraft:netherrack",
+    "minecraft:magma_block",
+    "minecraft:lapis_block",
+    "minecraft:lapis_ore",
+    "minecraft:deepslate_lapis_ore"
+  ]
+}

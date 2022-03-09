@@ -1,39 +1,38 @@
 {
-    "feature": "trimensions:deep_caverns/large_dripstone",
-    "placement": [
-      {
-        "type": "minecraft:count",
-        "count": {
-          "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 0,
-            "max_inclusive": 1
-          }
+  "feature": "trimensions:deep_caverns/large_dripstone",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 1
         }
-      },
-      {
-        "type": "minecraft:count",
-        "count": {
-          "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 0,
-            "max_inclusive": 1
-          }
-        }
-      },
-      {
-        "type": "minecraft:count",
-        "count": {
-          "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 0,
-            "max_inclusive": 1
-          }
-        }
-      },
-      {
-        "type": "minecraft:in_square"
       }
-    ]
-  }
-  
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 1
+        }
+      }
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 1
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    }
+  ]
+}

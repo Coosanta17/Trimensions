@@ -68,7 +68,10 @@
     [],
     [],
     [],
-    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
     [
       "minecraft:flower_swamp",
       "minecraft:patch_grass_normal",
@@ -79,8 +82,6 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane_swamp",
       "minecraft:patch_melon",
-      "minecraft:spring_water",
-      "minecraft:spring_lava",
       "minecraft:seagrass_swamp",
       "minecraft:patch_large_fern",
       "minecraft:vines",

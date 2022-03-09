@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:deepslate",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "target": {
+      "Name": "minecraft:dripstone_block"
+    },
+    "radius": {
+      "type": "minecraft:constant",
+      "value": 5
+    }
+  }
+}

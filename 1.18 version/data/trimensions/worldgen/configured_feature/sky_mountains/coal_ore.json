@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:coal_ore"
+    },
+    "target": {
+      "Name": "minecraft:stone"
+    },
+    "radius": {
+      "type": "minecraft:constant",
+      "value": 2
+    }
+  }
+}

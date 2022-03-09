@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:ice"
+    },
+    "target": {
+      "Name": "minecraft:dripstone_block"
+    },
+    "radius": {
+      "type": "minecraft:constant",
+      "value": 5
+    }
+  }
+}

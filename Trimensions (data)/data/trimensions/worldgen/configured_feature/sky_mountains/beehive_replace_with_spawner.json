@@ -1,17 +1,16 @@
 {
-    "type": "minecraft:netherrack_replace_blobs",
-    "config": {
-      "state": {
-        "Name": "minecraft:lime_wool"
-      },
-      "target": {
-        "Name": "minecraft:bee_nest",
-        "Properties": {
-          "facing": "east",
-          "honey_level": "0"
-        }
-      },
-      "radius": 3
-    }
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:lime_wool"
+    },
+    "target": {
+      "Name": "minecraft:bee_nest",
+      "Properties": {
+        "facing": "east",
+        "honey_level": "0"
+      }
+    },
+    "radius": 3
   }
-  
+}
