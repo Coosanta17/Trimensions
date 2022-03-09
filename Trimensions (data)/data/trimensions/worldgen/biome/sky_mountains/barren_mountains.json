@@ -18,12 +18,6 @@
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
-    },
-    "particle": {
-      "options": {
-        "type": "minecraft:ash"
-      },
-      "probability": 1e-7
     }
   },
   "spawners": {
