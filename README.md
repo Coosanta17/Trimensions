@@ -1,4 +1,5 @@
 
+
 # Trimensions
 
 A minecraft datapack collaboration.
@@ -27,3 +28,5 @@ Come join us on discord!
 **[https://discord.gg/wQtqZjYXqa](https://discord.gg/wQtqZjYXqa "https://discord.gg/wQtqZjYXqa")**
 
 If you want to contribute to the pack dm me thru discord @ `Coosanta#7004` or join the server and ask
+
+## This project is not being worked on anymore, the basic ideas and code have been moved to The Amalgam, which you can access [here](https://github.com/Coosanta17/Amalgam)
